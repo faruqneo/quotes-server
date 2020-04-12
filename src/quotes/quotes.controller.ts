@@ -34,7 +34,7 @@ export class QuotesController {
 
     @ApiParam({ name: 'id' })
     @Delete(':id')
-    async deleteQuotes(@Param('id') id: string): Promise<Quote[]> {
+    async deleteQuotes(@Param('id') id: string): Promise<Quote> {
         return await this.qutoeService.deleteQuoteDto(id);
     }
 }
