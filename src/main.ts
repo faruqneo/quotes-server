@@ -10,8 +10,8 @@ async function bootstrap() {
   app.enableCors();
 
   const options = new DocumentBuilder()
-    .setTitle('Quotes API')
-    .setDescription('Quotes API description')
+    .setTitle('Quote API')
+    .setDescription('Quote API description')
     .setVersion('1.0')
     .build()
 

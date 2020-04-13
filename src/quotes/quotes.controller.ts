@@ -4,8 +4,8 @@ import { CreateQuoteDto } from './dto/create-quote.dto';
 import { Quote } from './interfaces/qutoe.interface';
 import { ApiTags, ApiParam } from '@nestjs/swagger';
 
-@ApiTags('quotes')
-@Controller('quotes')
+@ApiTags('quote')
+@Controller('quote')
 export class QuotesController {
 
     constructor(private qutoeService: QuotesService) { }
