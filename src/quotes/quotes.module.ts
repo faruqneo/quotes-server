@@ -12,6 +12,7 @@ import { LoggerMiddleware } from 'src/middleware/logger.middleware';
     controllers: [QuotesController],
     providers: [QuotesService],
 })
+
 export class QuotesModule implements NestModule {
     configure(consumer: MiddlewareConsumer) {
         consumer
